@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: linear-gradient(rgb(238,238,168),rgb(238,165,165));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lampada{
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#lampada button{
+    font-size: 12px;
+    border: none;
+    width: 200px;
+    padding: 18px;
+    background: silver;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#lampada button:hover{
+    background:yellow;
+    color: black;
+}
